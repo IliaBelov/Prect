@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled10.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMyz4Nty8OOJB1bFxfGChkz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/IliaBelov/Prect/blob/main/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%20%D0%AD%D0%B9%D0%BB%D0%B5%D1%80%D0%B0\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4vaguR90rgsq"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zZyy64IOrhmF"
+      },
+      "source": [
+        "def euler(x0, y0, f, x1, n): # x0, y0 - начальное условие; f - правая часть ДУ; x1 - до какого значения x ищется решение; n - число узлов сетки\n",
+        "  h = (x1 - x0) / n # шаг сетки\n",
+        "    for i in range(n)\n",
+        "        y+=h *df(x,y)\n",
+        "        x+= h\n",
+        "        print(x,y)\n",
+        "  return X, Y\n",
+        "  def df(x,y):\n",
+        "      return -4x**2+6*x-8\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
